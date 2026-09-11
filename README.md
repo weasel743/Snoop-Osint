@@ -28,7 +28,7 @@
 
 [**📥 Télécharger**](https://github.com/votre-repo/snoop-osint/releases) &nbsp;·&nbsp;
 [**📖 Documentation**](https://github.com/votre-repo/snoop-osint/wiki) &nbsp;·&nbsp;
-[**💬 Discord**](https://discord.gg/VOTRE_LIEN) &nbsp;·&nbsp;
+[**💬 Discord**](https://discord.gg/VVpAvbE9k4) &nbsp;·&nbsp;
 [**🐛 Bug Report**](https://github.com/votre-repo/snoop-osint/issues/new)
 
 <br/>
@@ -463,6 +463,6 @@ Si ce projet vous est utile, une ⭐ sur GitHub c'est la meilleure façon de le 
 
 <br/>
 
-[⭐ Star](https://github.com/votre-repo/snoop-osint) · [🍴 Fork](https://github.com/votre-repo/snoop-osint/fork) · [💬 Discord](https://discord.gg/VOTRE_LIEN) · [🐛 Issues](https://github.com/votre-repo/snoop-osint/issues)
+[⭐ Star](https://github.com/votre-repo/snoop-osint) · [🍴 Fork](https://github.com/votre-repo/snoop-osint/fork) · [💬 Discord](https://discord.gg/VVpAvbE9k4) · [🐛 Issues](https://github.com/votre-repo/snoop-osint/issues)
 
 </div>
