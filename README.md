@@ -11,7 +11,7 @@
 [![PyQt6](https://img.shields.io/badge/PyQt6-GUI-41CD52?style=for-the-badge&logo=qt&logoColor=white)](https://pypi.org/project/PyQt6/)
 [![License](https://img.shields.io/badge/License-MIT-22C55E?style=for-the-badge)](LICENSE)
 [![Stars](https://img.shields.io/github/stars/votre-repo/snoop-osint?style=for-the-badge&color=FBBF24&logo=github)](https://github.com/votre-repo/snoop-osint/stargazers)
-[![Discord](https://img.shields.io/badge/Discord-Rejoindre-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/VOTRE_LIEN)
+[![Discord](https://img.shields.io/badge/Discord-Rejoindre-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/VVpAvbE9k4)
 
 <br/>
 
@@ -20,15 +20,13 @@
 [![macOS](https://img.shields.io/badge/macOS-✓-000000?style=flat-square&logo=apple)](https://github.com/votre-repo/snoop-osint)
 [![API Keys](https://img.shields.io/badge/Clefs%20API-0%20requises-34D399?style=flat-square)](#)
 [![Modules](https://img.shields.io/badge/Modules-30%2B-A78BFA?style=flat-square)](#modules)
-[![Sources FR](https://img.shields.io/badge/Sources%20FR-BODACC%20%7C%20Infogreffe%20%7C%20Data.gouv-DC2626?style=flat-square)](#-france)
 
 <br/>
 
 [**📥 Télécharger**](https://github.com/votre-repo/snoop-osint/releases) &nbsp;·&nbsp;
 [**📖 Documentation**](https://github.com/votre-repo/snoop-osint/wiki) &nbsp;·&nbsp;
-[**💬 Discord**](https://discord.gg/VOTRE_LIEN) &nbsp;·&nbsp;
-[**🐛 Bug Report**](https://github.com/votre-repo/snoop-osint/issues/new) &nbsp;·&nbsp;
-[**🤝 Contribuer**](CONTRIBUTING.md)
+[**💬 Discord**](https://discord.gg/VVpAvbE9k4) &nbsp;·&nbsp;
+[**🐛 Bug Report**](https://github.com/votre-repo/snoop-osint/issues/new)
 
 <br/>
 
@@ -38,7 +36,7 @@
 
 <div align="center">
 
-### Tu entres un email. Tu n'appuies qu'une fois sur Entrée.
+### Tu entres un email. Tu appuies sur Entrée.
 ### Le reste, c'est Snoop OSINT qui s'en occupe.
 
 </div>
@@ -60,7 +58,6 @@
 │   │       ├── 🔐  SSL ───────────────── Valide jusqu'au 2026
 │   │       └── 🔗  crt.sh ────────────── dev.acme.fr · api.acme.fr
 │   │
-│   ├── 🐦  Twitter lié ───────────────── @johndoe trouvé
 │   └── 🏢  Organisation ──────────────── Acme Corp · Paris
 │
 ├── 🔓  Fuites de données ─────────────── LinkedIn 2021 · Adobe 2013
@@ -78,7 +75,12 @@
 
 <br/>
 
-![Snoop OSINT — Dashboard](docs/screenshot_dashboard.png)
+> **Upload ton screenshot dans le repo :**
+> 1. Crée un dossier `docs/` à la racine de ton repo GitHub
+> 2. Upload le fichier `screenshot_dashboard.png` dedans
+> 3. Le screenshot apparaîtra ici automatiquement
+
+![Snoop OSINT — Dashboard](https://raw.githubusercontent.com/votre-repo/snoop-osint/main/docs/screenshot_dashboard.png)
 
 <br/>
 
@@ -89,19 +91,19 @@
 <br/>
 
 **🔗 Corrélation automatique**
-> L'outil relie les résultats entre eux sans que tu aies à relancer manuellement chaque module. Un email devient un username, qui devient un domaine, qui devient une IP, qui devient une organisation. Tout seul.
+> L'outil relie les résultats entre eux sans que tu aies à relancer chaque module manuellement. Un email devient un username, qui devient un domaine, qui devient une IP, qui devient une organisation. Tout seul.
 
 **🕸️ Vue graphe interactive**
 > Chaque donnée trouvée est un nœud. Chaque lien est une connexion. Tu vois en un coup d'œil la cartographie complète d'une cible. Drag & drop, zoom, export PNG.
 
 **🇫🇷 Sources françaises officielles**
-> BODACC, Infogreffe, Pages Jaunes, Data.gouv.fr. Des sources que personne d'autre n'intègre dans un outil OSINT open source.
+> BODACC, Infogreffe, Pages Jaunes, Data.gouv.fr intégrés nativement.
 
 **📅 Timeline automatique**
-> Toutes les informations trouvées, triées par date. Une fuite en 2013, un compte créé en 2018, une entreprise déposée en 2021. La chronologie se construit toute seule.
+> Toutes les informations trouvées, triées par date. La chronologie se construit toute seule.
 
 **🎨 Interface pensée pour durer**
-> 10 thèmes · 7 animations · 6 langues · Export CSV, JSON, PDF, HTML · Historique SQLite · Système de plugins Python
+> 10 thèmes · 7 animations · 6 langues · Export CSV / JSON / PDF / HTML · Historique SQLite · Plugins Python
 
 <br/>
 
@@ -232,14 +234,14 @@
 <br/>
 
 ```bash
-# Cloner
+# 1. Cloner le repo
 git clone https://github.com/votre-repo/snoop-osint.git
 cd snoop-osint
 
-# Installer
+# 2. Installer les dépendances
 pip install -r requirements.txt
 
-# Lancer
+# 3. Lancer
 python main.py
 ```
 
@@ -249,7 +251,7 @@ python main.py
 <br/>
 
 <details>
-<summary><b>Environnement virtuel (recommandé)</b></summary>
+<summary><b>💡 Environnement virtuel (recommandé)</b></summary>
 
 <br/>
 
@@ -269,22 +271,22 @@ python main.py
 </details>
 
 <details>
-<summary><b>Dépendances installées</b></summary>
+<summary><b>📦 Dépendances installées</b></summary>
 
 <br/>
 
 | Package | Rôle |
 |---|---|
 | `PyQt6` | Interface graphique |
-| `requests` | Toutes les requêtes HTTP |
-| `phonenumbers` | Décodage numéros de téléphone |
-| `python-whois` | WHOIS des domaines |
+| `requests` | Requêtes HTTP |
+| `phonenumbers` | Décodage numéros |
+| `python-whois` | WHOIS domaines |
 | `dnspython` | Résolution DNS |
-| `Pillow` | Lecture images + EXIF |
+| `Pillow` | Images + EXIF |
 | `beautifulsoup4` | Scraping HTML |
 | `reportlab` | Export PDF |
-| `networkx` | Calculs du graphe |
-| `exifread` | Métadonnées images avancées |
+| `networkx` | Calculs graphe |
+| `exifread` | Métadonnées avancées |
 
 </details>
 
@@ -296,7 +298,7 @@ python main.py
 
 <br/>
 
-Snoop OSINT est extensible. Dépose un fichier `.py` dans le dossier `plugins/` :
+Snoop OSINT est extensible. Dépose un fichier `.py` dans `plugins/` :
 
 ```python
 # plugins/mon_module.py
@@ -336,14 +338,14 @@ snoop-osint/
 │   ├── 📧 email/holehe.py           ← 9 checkers publics
 │   ├── 🇫🇷 france/                  ← BODACC · Infogreffe · Pages Jaunes · Data.gouv
 │   ├── 🌐 domain/                   ← WHOIS · DNS · SSL
-│   └── 📱 ip/ · phone/ · crypto/   ← Modules spécialisés
+│   └── 📱 ip/ · phone/ · crypto/
 │
 ├── 📁 ui/
 │   ├── 🕸️  views/graph_view.py      ← Graphe interactif
 │   ├── 🔗 views/correlation_view.py ← Corrélation temps réel
 │   ├── 📅 views/timeline_view.py    ← Timeline automatique
 │   ├── 🎨 animations/               ← Lightning · Matrix · Particles · Neural...
-│   └── 🧩 widgets/                  ← Composants réutilisables
+│   └── 🧩 widgets/
 │
 ├── 📁 core/                         ← Config · DB SQLite · Thèmes · i18n
 ├── 📁 config/                       ← settings.json · themes.json · langues
@@ -358,8 +360,6 @@ snoop-osint/
 ## Contribuer
 
 <br/>
-
-Le projet est ouvert à toutes les contributions.
 
 | Domaine | Niveau | Ce qu'on cherche |
 |---|---|---|
@@ -387,9 +387,9 @@ git push origin feature/ma-contribution
 
 <div align="center">
 
-[![Discord](https://img.shields.io/badge/Discord-Rejoindre%20le%20serveur-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/VOTRE_LIEN)
+[![Discord](https://img.shields.io/badge/Discord-Rejoindre%20le%20serveur-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/VVpAvbE9k4)
 
-Support · Développement · Techniques OSINT · Nouvelles versions
+**Support · Développement · Techniques OSINT · Nouvelles versions**
 
 </div>
 
@@ -423,7 +423,7 @@ Si le projet te sert, une ⭐ c'est la meilleure façon de le faire connaître.
 
 [⭐ Star](https://github.com/votre-repo/snoop-osint) &nbsp;·&nbsp;
 [🍴 Fork](https://github.com/votre-repo/snoop-osint/fork) &nbsp;·&nbsp;
-[💬 Discord](https://discord.gg/VOTRE_LIEN) &nbsp;·&nbsp;
+[💬 Discord](https://discord.gg/VVpAvbE9k4) &nbsp;·&nbsp;
 [🐛 Issues](https://github.com/votre-repo/snoop-osint/issues)
 
 <br/>
