@@ -1,292 +1,257 @@
 <div align="center">
-  <br/>
-
-```
- ___  _  _  ___  ___  ____     ___  ___  ____  _  _  ____
-/ __)( \( )/ __)(  _)(  _ \   / _ \/ __)(_  _)( \( )(_  _)
-\__ \ )  ( \__ \ ) _)  )___/  \_, /\__ \  )(   )  (  _)(_
-(___/(_)\_)(___/(___)(__)      (___/(___/ (__) (_)\_)(____)
-```
-
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=7C3AED&center=true&vCenter=true&width=600&lines=L'alternative+gratuite+%C3%A0+Maltego;Corr%C3%A9lation+automatique+entre+les+sources;Sources+fran%C3%A7aises+officielles+int%C3%A9gr%C3%A9es;0+clef+API+requise+%E2%80%94+100%25+open+source" alt="Typing SVG" />
 
 <br/>
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&pause=1000&color=7C3AED&center=true&vCenter=true&width=700&lines=⚡+SNOOP+OSINT;Tu+entres+une+donnée...;...l'outil+explore+tout+seul.;Corrélation+automatique.;Sources+françaises+officielles.;0+clef+API+requise." alt="Typing SVG" />
+
+<br/><br/>
 
 [![Version](https://img.shields.io/badge/version-3.0.0-7C3AED?style=for-the-badge&logo=github)](https://github.com/votre-repo/snoop-osint/releases)
 [![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
 [![PyQt6](https://img.shields.io/badge/PyQt6-GUI-41CD52?style=for-the-badge&logo=qt&logoColor=white)](https://pypi.org/project/PyQt6/)
 [![License](https://img.shields.io/badge/License-MIT-22C55E?style=for-the-badge)](LICENSE)
 [![Stars](https://img.shields.io/github/stars/votre-repo/snoop-osint?style=for-the-badge&color=FBBF24&logo=github)](https://github.com/votre-repo/snoop-osint/stargazers)
+[![Discord](https://img.shields.io/badge/Discord-Rejoindre-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/VOTRE_LIEN)
+
+<br/>
 
 [![Windows](https://img.shields.io/badge/Windows-✓-0078D4?style=flat-square&logo=windows)](https://github.com/votre-repo/snoop-osint)
 [![Linux](https://img.shields.io/badge/Linux-✓-FCC624?style=flat-square&logo=linux&logoColor=black)](https://github.com/votre-repo/snoop-osint)
 [![macOS](https://img.shields.io/badge/macOS-✓-000000?style=flat-square&logo=apple)](https://github.com/votre-repo/snoop-osint)
-[![API Keys](https://img.shields.io/badge/Clefs%20API-0%20requises-34D399?style=flat-square)](https://github.com/votre-repo/snoop-osint)
-[![Discord](https://img.shields.io/badge/Discord-Rejoindre-5865F2?style=flat-square&logo=discord&logoColor=white)](https://discord.gg/VOTRE_LIEN)
+[![API Keys](https://img.shields.io/badge/Clefs%20API-0%20requises-34D399?style=flat-square)](#)
+[![Modules](https://img.shields.io/badge/Modules-30%2B-A78BFA?style=flat-square)](#modules)
+[![Sources FR](https://img.shields.io/badge/Sources%20FR-BODACC%20%7C%20Infogreffe%20%7C%20Data.gouv-DC2626?style=flat-square)](#-france)
 
 <br/>
 
 [**📥 Télécharger**](https://github.com/votre-repo/snoop-osint/releases) &nbsp;·&nbsp;
 [**📖 Documentation**](https://github.com/votre-repo/snoop-osint/wiki) &nbsp;·&nbsp;
-[**💬 Discord**](https://discord.gg/VVpAvbE9k4) &nbsp;·&nbsp;
-[**🐛 Bug Report**](https://github.com/votre-repo/snoop-osint/issues/new)
+[**💬 Discord**](https://discord.gg/VOTRE_LIEN) &nbsp;·&nbsp;
+[**🐛 Bug Report**](https://github.com/votre-repo/snoop-osint/issues/new) &nbsp;·&nbsp;
+[**🤝 Contribuer**](CONTRIBUTING.md)
 
 <br/>
+
 </div>
 
 ---
 
 <div align="center">
 
-## Le problème
+### Tu entres un email. Tu n'appuies qu'une fois sur Entrée.
+### Le reste, c'est Snoop OSINT qui s'en occupe.
 
 </div>
 
-Les meilleurs outils OSINT coûtent une fortune ou sont en ligne de commande.  
-**Maltego** → 1 000€/an. **Sherlock** → terminal uniquement. **SpiderFoot** → interface web basique.
-
-Il n't existait pas d'outil OSINT **gratuit**, **moderne**, avec une **vraie interface graphique** et surtout capable de **relier automatiquement les résultats entre eux**.
-
-Jusqu'à maintenant.
-
----
-
-<div align="center">
-
-## Comment ça marche
-
-</div>
-
-Tu entres **une seule donnée**. Snoop OSINT explore tout seul en profondeur.
+<br/>
 
 ```
 📧 john.doe@gmail.com
 │
-├── 👤 Gravatar ──────────────────── "John Doe" + avatar
+├── 👤  Gravatar ──────────────────────── "John Doe" + avatar trouvé
 │
-├── 🐙 GitHub API ────────────────── compte @johndoe42
+├── 🐙  GitHub API ────────────────────── @johndoe42 découvert
 │   │
-│   ├── 📧 Commits ───────────────── john@acme.fr  ← email pro extrait
+│   ├── 📧  Commits publics ───────────── john@acme.fr extrait
 │   │   │
-│   │   └── 🌐 Domaine acme.fr
-│   │       ├── 📋 WHOIS ─────────── Créé le 12/03/2018, Jean Dupont
-│   │       ├── 🌀 DNS ───────────── 185.23.x.x, MX, NS...
-│   │       ├── 🔐 SSL ───────────── Certif valide jusqu'au 2026
-│   │       └── 🔗 crt.sh ────────── dev.acme.fr, api.acme.fr
+│   │   └── 🌐  Domaine acme.fr
+│   │       ├── 📋  WHOIS ─────────────── Créé 12/03/2018 · Jean Dupont
+│   │       ├── 🌀  DNS ───────────────── A, MX, NS, TXT, CNAME...
+│   │       ├── 🔐  SSL ───────────────── Valide jusqu'au 2026
+│   │       └── 🔗  crt.sh ────────────── dev.acme.fr · api.acme.fr
 │   │
-│   └── 🐦 Twitter lié ───────────── @johndoe
+│   ├── 🐦  Twitter lié ───────────────── @johndoe trouvé
+│   └── 🏢  Organisation ──────────────── Acme Corp · Paris
 │
-└── 🔓 Fuites ────────────────────── LinkedIn 2021, Adobe 2013
+├── 🔓  Fuites de données ─────────────── LinkedIn 2021 · Adobe 2013
+│
+└── 🏛️  BODACC ────────────────────────── Acme SARL · SIREN 123456789
 
-⏱️  Résultat : graphe complet en ~30 secondes
+                          ⏱️  30 secondes · Zéro intervention manuelle
 ```
 
-Chaque résultat devient automatiquement un nouveau point de départ.
+<br/>
 
 ---
 
-<div align="center">
+## Aperçu
 
-## Comparaison
+<br/>
 
-</div>
+![Snoop OSINT — Dashboard](docs/screenshot_dashboard.png)
 
-|  | Maltego | Sherlock | SpiderFoot | **Snoop OSINT** |
-|---|:---:|:---:|:---:|:---:|
-| Corrélation automatique | ✅ | ❌ | Partiel | ✅ |
-| Vue graphe interactive | ✅ | ❌ | ❌ | ✅ |
-| Interface GUI moderne | ✅ | ❌ | Web seul | ✅ |
-| Sources françaises officielles | ❌ | ❌ | ❌ | ✅ |
-| Timeline automatique | ✅ | ❌ | ❌ | ✅ |
-| Export PDF / HTML / CSV / JSON | ✅ | Partiel | ✅ | ✅ |
-| Système de plugins | ✅ | ❌ | ✅ | ✅ |
-| 100% gratuit | ❌ **1 000€/an** | ✅ | ✅ | ✅ |
-| 0 clef API requise | ❌ | ✅ | Partiel | ✅ |
+<br/>
 
 ---
 
-<div align="center">
+## Ce que Snoop OSINT fait concrètement
+
+<br/>
+
+**🔗 Corrélation automatique**
+> L'outil relie les résultats entre eux sans que tu aies à relancer manuellement chaque module. Un email devient un username, qui devient un domaine, qui devient une IP, qui devient une organisation. Tout seul.
+
+**🕸️ Vue graphe interactive**
+> Chaque donnée trouvée est un nœud. Chaque lien est une connexion. Tu vois en un coup d'œil la cartographie complète d'une cible. Drag & drop, zoom, export PNG.
+
+**🇫🇷 Sources françaises officielles**
+> BODACC, Infogreffe, Pages Jaunes, Data.gouv.fr. Des sources que personne d'autre n'intègre dans un outil OSINT open source.
+
+**📅 Timeline automatique**
+> Toutes les informations trouvées, triées par date. Une fuite en 2013, un compte créé en 2018, une entreprise déposée en 2021. La chronologie se construit toute seule.
+
+**🎨 Interface pensée pour durer**
+> 10 thèmes · 7 animations · 6 langues · Export CSV, JSON, PDF, HTML · Historique SQLite · Système de plugins Python
+
+<br/>
+
+---
 
 ## Modules
 
-</div>
+<br/>
 
 <table>
 <tr>
 <td width="25%" valign="top">
 
-### 🔍 Recherche
+**🔍 Recherche**
+
 ```
 👤 Username
-   └─ 50+ plateformes
-   └─ Vérif. HTML précise
+   50+ plateformes
+   Vérif. HTML par site
 
 📧 Email
-   └─ 9 checkers publics
-   └─ Fuites intégrées
+   9 checkers publics
+   Fuites intégrées
 
 📱 Téléphone
-   └─ Pays, opérateur
-   └─ Mobile / Fixe / VoIP
+   Pays · Opérateur
+   Mobile / Fixe / VoIP
 
 🌐 Adresse IP
-   └─ Géoloc complète
-   └─ VPN / Proxy / Hosting
+   Géoloc complète
+   VPN / Proxy / Hosting
 
 🏠 Domaine
-   └─ WHOIS + DNS + SSL
-   └─ Sous-domaines crt.sh
+   WHOIS + DNS + SSL
+   Sous-domaines crt.sh
 ```
 
 </td>
 <td width="25%" valign="top">
 
-### 🔬 Analyse
+**🔬 Analyse**
+
 ```
-🖼️  EXIF / Métadonnées
-   └─ Images, PDF, DOCX
-   └─ GPS → Google Maps
+🖼️ EXIF / Métadonnées
+   Images, PDF, DOCX
+   GPS → Google Maps
 
-🐙 GitHub scan
-   └─ Profil + repos
-   └─ Emails dans commits
+🐙 GitHub
+   Profil + repos
+   Emails dans commits
 
-₿  Crypto
-   └─ BTC + ETH
-   └─ Transactions
+₿ Crypto
+   BTC + ETH
+   Transactions
 
 📋 Paste Sites
-   └─ Pastebin, Ghostbin
-   └─ Détection mots de passe
+   Pastebin, Ghostbin
+   Mots de passe exposés
 
 🔓 Fuites
-   └─ BreachDirectory
-   └─ HIBP (clef optionnelle)
+   BreachDirectory
+   HIBP optionnel
 ```
 
 </td>
 <td width="25%" valign="top">
 
-### ⚙️ Avancé
+**⚙️ Technique**
+
 ```
 🔌 Port Scanner
-   └─ 22 ports courants
-   └─ Banner grabbing
+   22 ports courants
+   Banner grabbing
 
 🌀 DNS
-   └─ Tous types de records
-   └─ DNS over HTTPS
+   Tous types de records
+   DNS over HTTPS
 
-🔐 SSL / Certificats
-   └─ Validité + émetteur
-   └─ Historique crt.sh
+🔐 SSL / Certs
+   Validité + émetteur
+   Historique crt.sh
 
-🛡️  Shodan
-   └─ InternetDB gratuit
-   └─ API complète optionnelle
+🛡️ Shodan
+   InternetDB gratuit
+   API optionnelle
 
 🔍 Google Dorking
-   └─ 12 dorks générés
-   └─ Fichiers, logins, configs
+   12 dorks générés
+   Fichiers, logins...
 ```
 
 </td>
 <td width="25%" valign="top">
 
-### 🇫🇷 France
+**🇫🇷 France**
+
 ```
-🏛️  BODACC
-   └─ Entreprises officielles
-   └─ Procédures, bilans
+🏛️ BODACC
+   Entreprises officielles
+   Procédures, bilans
 
 📋 Infogreffe
-   └─ Dirigeants
-   └─ Forme juridique
+   Dirigeants
+   Forme juridique
 
 📒 Pages Jaunes
-   └─ Annuaire pro
-   └─ Recherche inversée
+   Annuaire pro
+   Recherche inversée
 
-🇫🇷  Data.gouv.fr
-   └─ Datasets officiels
-   └─ Élus + Associations
+🇫🇷 Data.gouv.fr
+   Datasets officiels
+   Élus + Associations
 
-🕸️  Dark Web
-   └─ Ahmia.fi indexé
+🕸️ Dark Web
+   Ahmia.fi
 ```
 
 </td>
 </tr>
 </table>
 
----
-
-<div align="center">
-
-## Interface
-
-</div>
-
-```
-┌─────────────────────────────────────────────────────────────────────────┐
-│  ⚡ SNOOP OSINT          🔍 Recherche globale...        FR  Violet  ─ □ ✕ │
-├──────────────┬──────────────────────────────────────────────────────────┤
-│              │  🔗 Corrélation automatique              [12 nœuds · 18 liens] │
-│  RECHERCHE   │                                                          │
-│  🔗 Corrél.  │    [john.doe@gmail.com]                                  │
-│  👤 Username │        │                                                 │
-│  📧 Email    │    ┌───┴──────────────────────┐                         │
-│  📱 Téléph.  │    │                          │                         │
-│  🌐 IP       │  [@johndoe42]         [Fuite LinkedIn]                  │
-│  🏠 Domaine  │       │                                                  │
-│              │  [john@acme.fr]                                          │
-│  ANALYSE     │       │                                                  │
-│  🖼️  EXIF    │  [acme.fr] ──── [dev.acme.fr]                           │
-│  🐙 GitHub   │       │                                                  │
-│  ₿ Crypto    │  [185.23.x.x]                                            │
-│  📋 Pastes   │                                                          │
-│  🔓 Fuites   │  ─────────────────────────────────────────────────────  │
-│              │  ✅ Terminé — 12 nœuds · email, username, domain, ip... │
-│  FRANCE 🇫🇷  │                                                          │
-│  🏛️  BODACC  ├──────────────────────────────────────────────────────────┤
-│  📋 Infogrff │  📋 Activité                          📊 Résumé          │
-│  📒 PagesJau │  ✅ [email] john.doe@gmail.com         12 nœuds trouvés  │
-│  🇫🇷 Data.gouv│  🔗 GitHub → @johndoe42               4 emails          │
-│              │  ✅ [username] johndoe42               2 domaines        │
-│  OUTILS      │  🔗 Commits → john@acme.fr             3 plateformes     │
-│  🕸️  Graphe  │  ✅ [domain] acme.fr                  1 fuite détectée  │
-│  📅 Timeline │  🔗 WHOIS → Jean Dupont               Confiance: 87%    │
-│  ⚙️  Params  │                                                          │
-└──────────────┴──────────────────────────────────────────────────────────┘
-```
-
-**10 thèmes** · **7 animations** (lightning, matrix, particles, neural...) · **6 langues**
+<br/>
 
 ---
-
-<div align="center">
 
 ## Installation
 
-</div>
+<br/>
 
 ```bash
-# Cloner le repo
+# Cloner
 git clone https://github.com/votre-repo/snoop-osint.git
 cd snoop-osint
 
-# Installer les dépendances (une seule fois)
+# Installer
 pip install -r requirements.txt
 
 # Lancer
 python main.py
 ```
 
-> **Aucune configuration requise.** Aucun serveur. Aucune base de données. Aucune clef API.
-> Fonctionne immédiatement après installation.
+> Aucune configuration. Aucun serveur. Aucune base de données. Aucune clef API.
+> Trois commandes et c'est parti.
+
+<br/>
 
 <details>
 <summary><b>Environnement virtuel (recommandé)</b></summary>
+
+<br/>
 
 ```bash
 python -m venv venv
@@ -306,36 +271,39 @@ python main.py
 <details>
 <summary><b>Dépendances installées</b></summary>
 
-| Package | Utilité |
+<br/>
+
+| Package | Rôle |
 |---|---|
 | `PyQt6` | Interface graphique |
-| `requests` | Requêtes HTTP |
-| `phonenumbers` | Décodage numéros |
-| `python-whois` | WHOIS domaines |
+| `requests` | Toutes les requêtes HTTP |
+| `phonenumbers` | Décodage numéros de téléphone |
+| `python-whois` | WHOIS des domaines |
 | `dnspython` | Résolution DNS |
 | `Pillow` | Lecture images + EXIF |
 | `beautifulsoup4` | Scraping HTML |
 | `reportlab` | Export PDF |
-| `networkx` | Calculs graphe |
+| `networkx` | Calculs du graphe |
+| `exifread` | Métadonnées images avancées |
 
 </details>
 
----
+<br/>
 
-<div align="center">
+---
 
 ## Créer un plugin
 
-</div>
+<br/>
 
-Étend Snoop OSINT avec tes propres modules. Dépose un fichier `.py` dans `plugins/` :
+Snoop OSINT est extensible. Dépose un fichier `.py` dans le dossier `plugins/` :
 
 ```python
 # plugins/mon_module.py
 
 PLUGIN_NAME        = "Mon Module"
 PLUGIN_VERSION     = "1.0"
-PLUGIN_DESCRIPTION = "Recherche sur ma source de données"
+PLUGIN_DESCRIPTION = "Ce que fait mon module"
 PLUGIN_AUTHOR      = "Ton nom"
 
 def run(query, timeout=10, **kwargs):
@@ -346,106 +314,100 @@ def run(query, timeout=10, **kwargs):
     ]
 ```
 
-Le plugin apparaît automatiquement dans l'interface. Pas de redémarrage requis.
+Le plugin apparaît automatiquement dans l'interface. Aucun redémarrage requis.
+
+<br/>
 
 ---
 
-<div align="center">
-
 ## Structure du projet
 
-</div>
+<br/>
 
 ```
 snoop-osint/
 │
-├── 🐍 main.py                          ← Point d'entrée
+├── 🐍 main.py
 ├── 📋 requirements.txt
 │
-├── 📁 modules/                         ← Toute la logique OSINT
-│   ├── 🔗 correlation/engine.py        ← Moteur de corrélation (the magic)
-│   ├── 👤 username/sherlock.py         ← 50+ plateformes
-│   ├── 📧 email/holehe.py              ← 9 checkers
-│   ├── 🇫🇷 france/                     ← BODACC, Infogreffe, Pages Jaunes, Data.gouv
-│   ├── 🌐 domain/                      ← WHOIS + DNS + SSL
-│   └── 📱 ip/, phone/, crypto/...      ← Modules spécialisés
+├── 📁 modules/
+│   ├── 🔗 correlation/engine.py     ← Le cœur — corrélation automatique
+│   ├── 👤 username/sherlock.py      ← 50+ plateformes
+│   ├── 📧 email/holehe.py           ← 9 checkers publics
+│   ├── 🇫🇷 france/                  ← BODACC · Infogreffe · Pages Jaunes · Data.gouv
+│   ├── 🌐 domain/                   ← WHOIS · DNS · SSL
+│   └── 📱 ip/ · phone/ · crypto/   ← Modules spécialisés
 │
-├── 📁 ui/                              ← Interface PyQt6
-│   ├── 🕸️  views/graph_view.py         ← Graphe interactif (force-directed)
-│   ├── 🔗 views/correlation_view.py    ← Vue corrélation temps réel
-│   ├── 📅 views/timeline_view.py       ← Timeline automatique
-│   ├── 🎨 animations/                  ← 7 animations (lightning, matrix...)
-│   └── 🧩 widgets/                     ← Composants réutilisables
+├── 📁 ui/
+│   ├── 🕸️  views/graph_view.py      ← Graphe interactif
+│   ├── 🔗 views/correlation_view.py ← Corrélation temps réel
+│   ├── 📅 views/timeline_view.py    ← Timeline automatique
+│   ├── 🎨 animations/               ← Lightning · Matrix · Particles · Neural...
+│   └── 🧩 widgets/                  ← Composants réutilisables
 │
-├── 📁 core/                            ← Config, DB SQLite, thèmes, i18n
-├── 📁 config/                          ← settings.json, themes.json, langues
-├── 📁 plugins/                         ← Tes plugins personnalisés
-└── 📁 resources/styles/                ← 10 thèmes QSS
+├── 📁 core/                         ← Config · DB SQLite · Thèmes · i18n
+├── 📁 config/                       ← settings.json · themes.json · langues
+├── 📁 plugins/                      ← Tes modules personnalisés
+└── 📁 resources/styles/             ← 10 thèmes QSS
 ```
 
----
+<br/>
 
-<div align="center">
+---
 
 ## Contribuer
 
-</div>
+<br/>
 
-Les contributions sont les bienvenues. Voici où on a le plus besoin d'aide :
+Le projet est ouvert à toutes les contributions.
 
-| Domaine | Niveau | Description |
+| Domaine | Niveau | Ce qu'on cherche |
 |---|---|---|
-| 🧩 Nouveaux modules | Débutant | Ajouter des sources de données |
-| 🎯 Améliorer les checkers | Intermédiaire | Fingerprints plus précis par site |
-| 🌍 Traductions | Débutant | ES, DE, AR, RU... |
+| 🧩 Nouveaux modules | Débutant | Nouvelles sources de données |
+| 🎯 Checkers email/username | Intermédiaire | Fingerprints plus précis |
+| 🌍 Traductions | Débutant | ES · DE · AR · RU |
 | 🧪 Tests unitaires | Intermédiaire | Couverture de tests |
-| 📸 Screenshots / GIFs | Débutant | Démo visuelle pour le README |
-| 🔗 Nouvelles corrélations | Avancé | Enrichir le moteur de corrélation |
+| 🔗 Moteur de corrélation | Avancé | Nouvelles règles d'exploration |
+| 📸 Screenshots / GIFs | Débutant | Démo visuelle |
 
 ```bash
-# 1. Fork le repo
-# 2. Crée ta branche
 git checkout -b feature/ma-contribution
-
-# 3. Code + commit
-git commit -m "feat: description de ce que tu as fait"
-
-# 4. Push + Pull Request
+git commit -m "feat: ce que j'ai ajouté"
 git push origin feature/ma-contribution
+# → Pull Request
 ```
+
+<br/>
 
 ---
 
-<div align="center">
-
 ## Communauté
 
-</div>
+<br/>
 
 <div align="center">
 
 [![Discord](https://img.shields.io/badge/Discord-Rejoindre%20le%20serveur-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/VOTRE_LIEN)
 
-**Rejoins +XXX membres** sur le Discord officiel
-
-Support · Développement · Techniques OSINT · Actualités
+Support · Développement · Techniques OSINT · Nouvelles versions
 
 </div>
+
+<br/>
 
 ---
 
-<div align="center">
-
 ## Avertissement légal
 
-</div>
+<br/>
 
 > ⚠️ **Snoop OSINT est destiné à la recherche OSINT légale et éthique uniquement.**
 >
-> Vous êtes seul responsable de l'utilisation que vous faites de cet outil.
 > Utilisez-le exclusivement sur des cibles que vous êtes **explicitement autorisé** à analyser.
-> Respectez les lois de votre pays, le RGPD et les CGU des services utilisés.
+> Respectez les lois de votre pays, le RGPD et les CGU de chaque service utilisé.
 > L'auteur décline toute responsabilité pour un usage non autorisé ou illégal.
+
+<br/>
 
 ---
 
@@ -455,14 +417,15 @@ Support · Développement · Techniques OSINT · Actualités
 
 **⚡ Snoop OSINT** — Construit avec ❤️ pour la communauté OSINT
 
-Si ce projet vous est utile, une ⭐ sur GitHub c'est la meilleure façon de le soutenir.
+Si le projet te sert, une ⭐ c'est la meilleure façon de le faire connaître.
 
 <br/>
 
-[![Star History Chart](https://api.star-history.com/svg?repos=votre-repo/snoop-osint&type=Date)](https://star-history.com/#votre-repo/snoop-osint)
+[⭐ Star](https://github.com/votre-repo/snoop-osint) &nbsp;·&nbsp;
+[🍴 Fork](https://github.com/votre-repo/snoop-osint/fork) &nbsp;·&nbsp;
+[💬 Discord](https://discord.gg/VOTRE_LIEN) &nbsp;·&nbsp;
+[🐛 Issues](https://github.com/votre-repo/snoop-osint/issues)
 
 <br/>
-
-[⭐ Star](https://github.com/votre-repo/snoop-osint) · [🍴 Fork](https://github.com/votre-repo/snoop-osint/fork) · [💬 Discord](https://discord.gg/VVpAvbE9k4) · [🐛 Issues](https://github.com/votre-repo/snoop-osint/issues)
 
 </div>
