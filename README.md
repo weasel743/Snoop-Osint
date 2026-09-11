@@ -230,45 +230,45 @@
 
 <br/>
 
+> **Prérequis** : [Python 3.10+](https://python.org) installé sur votre machine — cochez **"Add Python to PATH"** pendant l'installation.
+
+<br/>
+
+### Windows — 2 clics suffit
+
+**Étape 1 — Double-cliquez sur `install.bat`**
+> Installe automatiquement toutes les dépendances. À faire une seule fois.
+
+**Étape 2 — Double-cliquez sur `start.bat`**
+> Lance Snoop OSINT. À faire à chaque démarrage.
+
+<br/>
+
+```
+📁 SnoopOSINT/
+├── 📄 install.bat   ← 1. Double-clic ici en premier
+├── 📄 start.bat     ← 2. Double-clic ici pour lancer
+├── 🐍 main.py
+└── ...
+```
+
+<br/>
+
+### Linux / macOS
+
 ```bash
-# 1. Cloner le repo
-git clone https://github.com/votre-repo/snoop-osint.git
-cd snoop-osint
-
-# 2. Installer les dépendances
 pip install -r requirements.txt
-
-# 3. Lancer
 python main.py
 ```
+
+<br/>
 
 > Aucune configuration. Aucun serveur. Aucune base de données. Aucune clef API.
-> Trois commandes et c'est parti.
 
 <br/>
 
 <details>
-<summary><b>💡 Environnement virtuel (recommandé)</b></summary>
-
-<br/>
-
-```bash
-python -m venv venv
-
-# Windows
-venv\Scripts\activate
-
-# Linux / macOS
-source venv/bin/activate
-
-pip install -r requirements.txt
-python main.py
-```
-
-</details>
-
-<details>
-<summary><b>📦 Dépendances installées</b></summary>
+<summary><b>📦 Dépendances installées automatiquement</b></summary>
 
 <br/>
 
